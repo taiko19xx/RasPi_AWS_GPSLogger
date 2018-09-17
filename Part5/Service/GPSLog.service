@@ -1,0 +1,11 @@
+[Unit]
+Description = GPSLog Service
+
+[Service]
+ExecStart = /home/pi/bootScript.sh
+Restart = always
+Type = simple
+User = pi
+
+[Install]
+WantedBy = multi-user.target

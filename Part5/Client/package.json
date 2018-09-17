@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "aws-iot-device-sdk": "^2.2.1",
+        "moment": "^2.22.1",
+        "node-gpsd": "^0.3.0"
+    }
+}
